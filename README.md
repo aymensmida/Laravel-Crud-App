@@ -1,17 +1,17 @@
 # Laravel-xlsx-File-Import-and-Export
 
-Import and Export Excel file with Laravel 8.
+Laravel 8 CRUD Operation Example
 
 ## Installation
 
 1-Clone the repository
 ```
-git clone https://github.com/aymensmida/Laravel-xlsx-File-Import-and-Export.git
+https://github.com/aymensmida/Laravel-Crud-App.git
 ```
 
 2- cd into the folder with this command:
 ```
-cd Laravel-xlsx-File-Import-and-Export
+cd Laravel-Crud-App
 ```
 
 3- composer install
@@ -31,7 +31,7 @@ php artisan key:generate
 
 Then edit `.env` file with appropriate credential for your database server. Just edit these two parameter(`DB_USERNAME`, `DB_PASSWORD`).
 
-6-Then create a database named `import_export_db` and then do a database migration using this command:
+6-Then create a database named `library` and then do a database migration using this command:
 ```
 php artisan migrate
 ```
@@ -43,18 +43,9 @@ php artisan migrate
 php artisan serve
 ```
 
-Then go to `http://localhost:8000` from your browser and see the app.
+Then go to `http://localhost:8000/books` from your browser and see the app.
 
 ## Technologies Used
 
 - PHP Laravel Framework
-- Bootstrap
-
-## Package  Used
-
-- **[Maatwebsite/Excel ](https://docs.laravel-excel.com/3.1/getting-started/installation.html)**
-
-
-## Example Used Excel File
-My sample excel file is Custom_file_users.xlsx file in public folder
-`public/Custom_file_users.xlsx`
+- Bootstrap v4.6
