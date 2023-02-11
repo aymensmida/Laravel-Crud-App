@@ -84,7 +84,7 @@ class BookController extends Controller
         ]);
         $book->update($request->all());
         return redirect()->route('books.index')
-                        ->with('success','User updated successfully');
+                        ->with('success','Book updated successfully');
     }
 
     /**
