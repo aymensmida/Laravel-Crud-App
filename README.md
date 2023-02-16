@@ -6,7 +6,7 @@
 
 1-Clone the repository
 ```
-https://github.com/aymensmida/Larevel-8-Vue-Js-Crud-App.git
+https://github.com/aymensmida/Laravel-Crud-App.git
 ```
 
 2- cd into the folder with this command:
